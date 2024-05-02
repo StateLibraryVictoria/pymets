@@ -3,7 +3,7 @@ import os
 
 import sys
 
-from nose.tools import *
+from pytest import *
 from lxml import etree as ET
 
 from pymets import mets_model as mm

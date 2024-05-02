@@ -2,7 +2,7 @@ import os
 import shutil
 
 from lxml import etree as ET
-from nose.tools import *
+from pytest import *
 
 from pymets import mets_factory as mf
 
